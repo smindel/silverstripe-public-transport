@@ -1,0 +1,45 @@
+---
+Name: publictransportconfig
+---
+Smindel\PublicTransport\Model\Agency:
+  extensions:
+    - Smindel\PublicTransport\Extension\EditFormTools
+Smindel\PublicTransport\Model\Stop:
+  extensions:
+    - Smindel\PublicTransport\Extension\EditFormTools
+Smindel\PublicTransport\Model\Route:
+  extensions:
+    - Smindel\PublicTransport\Extension\EditFormTools
+Smindel\PublicTransport\Model\Trip:
+  extensions:
+    - Smindel\PublicTransport\Extension\EditFormTools
+Smindel\PublicTransport\Model\StopTime:
+  extensions:
+    - Smindel\PublicTransport\Extension\EditFormTools
+Smindel\PublicTransport\Model\Calendar:
+  extensions:
+    - Smindel\PublicTransport\Extension\EditFormTools
+Smindel\PublicTransport\Model\CalendarDate:
+  extensions:
+    - Smindel\PublicTransport\Extension\EditFormTools
+Smindel\PublicTransport\Model\FareAttribute:
+  extensions:
+    - Smindel\PublicTransport\Extension\EditFormTools
+Smindel\PublicTransport\Model\FareRule:
+  extensions:
+    - Smindel\PublicTransport\Extension\EditFormTools
+Smindel\PublicTransport\Model\Shape:
+  extensions:
+    - Smindel\PublicTransport\Extension\EditFormTools
+Smindel\PublicTransport\Model\ShapePoint:
+  extensions:
+    - Smindel\PublicTransport\Extension\EditFormTools
+Smindel\PublicTransport\Model\Frequency:
+  extensions:
+    - Smindel\PublicTransport\Extension\EditFormTools
+Smindel\PublicTransport\Model\Transfer:
+  extensions:
+    - Smindel\PublicTransport\Extension\EditFormTools
+Smindel\PublicTransport\Model\FeedInfo:
+  extensions:
+    - Smindel\PublicTransport\Extension\EditFormTools

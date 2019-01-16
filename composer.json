@@ -1,0 +1,31 @@
+{
+    "name": "smindel/silverstripe-public-transport",
+    "description": "GTFS Editor for SilverStripe",
+    "type": "silverstripe-vendormodule",
+    "keywords": [
+        "silverstripe",
+        "gtfs",
+        "public transport",
+        "trip planer"
+    ],
+    "license": "MIT",
+    "require": {
+        "silverstripe/framework": "^4",
+        "silverstripe/admin": "^1.0",
+        "smindel/silverstripe-gis": "^1.1"
+    },
+    "require-dev": {
+        "phpunit/PHPUnit": "~5.7"
+    },
+    "extra": {
+        "expose": [
+            "client"
+        ]
+    },
+    "autoload": {
+        "psr-4": {
+            "Smindel\\PublicTransport\\": "src/",
+            "Smindel\\PublicTransport\\Tests\\": "tests/php/"
+        }
+    }
+}

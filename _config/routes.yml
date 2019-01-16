@@ -1,0 +1,6 @@
+---
+Name: publictransportroutes
+---
+SilverStripe\Control\Director:
+  rules:
+    'ptc': 'Smindel\PublicTransport\Control\PublicTransportController'
